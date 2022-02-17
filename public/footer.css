@@ -11,10 +11,55 @@
 
 .footer {
     background-color: #163247;
-    height: 50px;
     padding: 25px;
 }
 
+.footer-header {
+  display:flex;
+  color: #aaa;
+  justify-content: space-between;
+  border-bottom: 1px solid #aaa;
+  padding-bottom: 25px;
+  margin-bottom: 25px;
+}
+.footer-about {
+  width: 80%;
+  margin-right: 60px;
+}
+.footer-about h3 {
+  font-size: 16px;
+  color: #ddd;
+  margin-bottom: 10px;
+}
+.footer-about p {
+  font-size: 14px;
+  border-left: 2px solid #aaa;
+  padding-left: 15px;
+}
+.footer-quick-links {
+  width: 30%;
+}
+.footer-quick-links h3 {
+  font-size: 16px;
+  color: #ddd;
+  text-align: right;
+  margin-bottom: 10px;
+}
+.footer-quick-links p {
+  font-size: 14px;
+  text-align: right;
+  border-right: 2px solid #aaa;
+  padding-right: 15px;
+}
+
+.copyright {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  color: #aaa;
+  margin-top: 10px;
+}
 .svg-inline--fa {
   vertical-align: -0.200em;
 }
@@ -33,14 +78,12 @@
   padding: 0;
   text-decoration: none;
   text-align: center;
-  color: #fefefe;
-  font-size: 20px;
+  color: #ddd;
+  font-size: 18px;
   font-weight: normal;
   line-height: 2em;
   border-radius: 1.6875rem;
-  transition: all 0.5s ease;
-  margin-right: 0.25rem;
-  margin-bottom: 0.25rem;
+  margin-bottom: 5px;
 }
 /* 
 .rounded-social-buttons .social-button:hover, .rounded-social-buttons .social-button:focus {
@@ -49,7 +92,7 @@
           transform: rotate(360deg);
 } */
 .rounded-social-buttons .fa-twitter, .fa-facebook-f, .fa-linkedin, .fa-youtube, .fa-instagram {
-    font-size: 25px;
+    font-size: 20px;
   }
 /* 
 
